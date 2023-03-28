@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4a65d21-55a4-4205-a0d1-ed5021592a81" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/SpringBootPlusApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/aop/LogAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/annotation/PassToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/api/ApiCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/api/ApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/api/ApiResult$ApiResultBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/api/ApiResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/api/Assert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/constraints/ColumnConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/constraints/EnumType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/constraints/EnumTypeValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/constraints/IdCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/constraints/IdCardValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/constraints/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/constraints/PhoneValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/controller/ApiDocController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/enums/BaseTypeStateEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/exception/DaoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/exception/GlobalErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/exception/SpringBootPlusException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/exception/SysLoginException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/param/IdParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/param/IdStatusParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/param/NameParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/param/OrderQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/param/PageParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/param/QueryDateParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/param/QueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/service/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/service/impl/BaseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/ConfigManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/Encoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/PathFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/SpringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/ActionMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/ActionMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/ActionState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/AppInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/AppInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/BaseState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/FileType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/FileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/MIMEType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/MIMEType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/MultiState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/define/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/hunter/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/hunter/ImageHunter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/upload/Base64Uploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/upload/BinaryUploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/upload/StorageManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/ueditor/upload/Uploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/DateTimeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/ExcelDownloadUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/ExcelUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/HttpClientUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/IPageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/IpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/JsonUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/ListPageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/NumberUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/QueryParamUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/SHA256Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/SnowFlakeGenerateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/ThreadPoolUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/ValidateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/utils/ZipUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/vo/CommonIdName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/common/vo/Paging.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/MultipartConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/RedisCacheConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/RedisTemplateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/RestTemplateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/Swagger2Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/converter/ConverterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/converter/StringToDateConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/converter/StringToDateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/converter/StringToDoubleConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/converter/StringToDoubleUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/converter/StringToIntegerConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/converter/StringToIntegerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/fastjson/FastJsonMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/JacksonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/deserializer/JacksonDateDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/deserializer/JacksonDoubleDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/deserializer/JacksonLocalDateTimeDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/serializer/JacksonDateSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/serializer/JacksonIntegerDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/serializer/JacksonLocalDateTimeSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/config/json/jackson/serializer/JavaDateJsonSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/constant/CacheKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/constant/CommonConstant$Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/constant/CommonConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/constant/CommonRedisKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/constant/DatePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/constant/PublicMsg$UeditorMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/constant/PublicMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/aop/AbstractLogAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/config/SpringBootPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/config/SpringBootPlusCorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/config/SpringBootPlusWebMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusAopProperties$AopConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusAopProperties$LogAopConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusAopProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusCorsProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusFilterProperties$FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusFilterProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusInterceptorProperties$InterceptorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusInterceptorProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/core/properties/SpringBootPlusStaticProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/enums/CarDataEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/enums/LevelEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/enums/StateEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/example/ShiroExampleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/filter/RequestPathFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/generator/config/SpringBootPlusMySqlQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/interceptor/PermissionInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/AnnouncementController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/ArticleTypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/CommissionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/CommissionTypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/GoodController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/GoodTypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/controller/HoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/Announcement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/ArticleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/Commission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/CommissionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/Good.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/GoodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/entity/Hole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/AccountMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/AnnouncementMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/ArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/ArticleTypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/CommissionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/CommissionTypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/GoodMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/GoodTypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/mapper/HoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/minio/controller/ShizukuMinioWechatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/minio/service/ShizukuMinioWechatService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/minio/service/impl/ShizukuMinioWechatServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/AccountQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/AnnouncementQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/ArticleQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/ArticleTypeQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/CommissionQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/CommissionTypeQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/GoodQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/GoodTypeQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/param/HoleQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/AnnouncementService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/ArticleTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/CommissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/CommissionTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/GoodService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/GoodTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/HoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/AnnouncementServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/ArticleTypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/CommissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/CommissionTypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/GoodServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/GoodTypeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/service/impl/HoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/AccountQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/AnnouncementQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/ArticleQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/ArticleTypeQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/CommissionQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/CommissionTypeQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/GoodQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/GoodTypeQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/module/vo/HoleQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/resource/controller/DownloadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/resource/controller/ResourceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/resource/controller/UploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/resource/interceptor/DownloadInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/resource/interceptor/ResourceInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/resource/interceptor/UploadInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/cache/LoginRedisService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/cache/impl/LoginRedisServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/config/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/config/ShiroPermissionProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/config/ShiroProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/convert/ShiroMapstructConvert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/convert/ShiroMapstructConvertImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/exception/ShiroConfigException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/jwt/JwtCredentialsMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/jwt/JwtFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/jwt/JwtProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/jwt/JwtRealm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/jwt/JwtToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/param/LoginParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/service/impl/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/util/JwtTokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/util/LoginUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/util/SaltUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/vo/ClientInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/vo/DeviceInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/vo/JwtTokenRedisVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/vo/LoginSysUserRedisVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/vo/LoginSysUserVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/shiro/vo/SysUserQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/controller/SysLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/controller/SysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/controller/VerificationCodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/convert/SysUserConvert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/convert/SysUserConvertImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/entity/SysLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/entity/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/exception/VerificationCodeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/mapper/SysLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/mapper/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/param/SysLogQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/param/SysUserQueryParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/service/SysLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/service/SysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/service/impl/SysLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/vo/LoginSysUserTokenVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/vo/SysLogQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/system/vo/SysUserQueryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/AnsiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/BrowserUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/ClientInfoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/ContentTypeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/DownloadUtil$DefaultDownloadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/DownloadUtil$DownloadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/DownloadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/EnumUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/HttpClientUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/HttpServletRequestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/HttpServletResponseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/IniUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/IpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/MapUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/PasswordUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/PrintApplicationInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/RedisCacheUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/SnowFlakeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/SpringContextUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/TokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/UUIDUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/UploadUtil$DefaultUploadFileNameHandleImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/UploadUtil$UploadFileNameHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/UploadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/util/VerificationCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/xss/XssFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/xss/XssHttpServletRequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/xss/XssJacksonDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/song/xss/XssJacksonSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/mime-type.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/AccountMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/AnnouncementMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/ArticleTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/CommissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/CommissionTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/GoodMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/GoodTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/module/HoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SysLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/pdf/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/verifyCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/springbootplus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/song/shiro/convert/ShiroMapstructConvertImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/song/system/convert/SysUserConvertImpl.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NRquirncAoaKjqa6WxJRK3b5Kx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/codemole/Desktop/workspace/school_transaction_back&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;15339313fa61343ef694a5de5d3be4fb&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.SpringBootPlusApplication (1)">
+    <configuration name="SpringBootPlusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.song.test.SpringBootPlusGenerator" />
+      <module name="school_transaction_back" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.song.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootPlusApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="school_transaction_back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.song.SpringBootPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="school_transaction_back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shizuku.anime.SpringBootPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.SpringBootPlusGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b4a65d21-55a4-4205-a0d1-ed5021592a81" name="变更" comment="" />
+      <created>1679637490789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679637490789</updated>
+      <workItem from="1679637492272" duration="480000" />
+      <workItem from="1679637974704" duration="7357000" />
+      <workItem from="1679975241230" duration="2187000" />
+      <workItem from="1679981986024" duration="1035000" />
+      <workItem from="1679984015426" duration="738000" />
+    </task>
+    <task id="LOCAL-00001" summary=" 233">
+      <created>1679982159921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679982159921</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" 233" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 233" />
+  </component>
+</project>
