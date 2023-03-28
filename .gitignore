@@ -2,7 +2,7 @@
  *.class
  target/
    # Log file
-# *.log
+ *.log
    # idea file
  *.iml
    # BlueJ files
@@ -10,7 +10,7 @@
    # Mobile Tools for Java (J2ME)
  .mtj.tmp/
  .idea/
-# logs/
+ logs/
    # Package Files #
  *.jar
  *.war
