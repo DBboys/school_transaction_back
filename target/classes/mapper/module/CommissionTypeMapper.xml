@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.song.module.mapper.CommissionTypeMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, type, create_time, update_time
+    </sql>
+
+    <select id="getCommissionTypeById" resultType="com.song.module.vo.CommissionTypeQueryVo">
+        select
+        <include refid="Base_Column_List"/>
+        from commission_type where id = #{id}
+    </select>
+
+    <select id="getCommissionTypePageList" resultType="com.song.module.vo.CommissionTypeQueryVo">
+        select
+        <include refid="Base_Column_List"/>
+        from commission_type
+    </select>
+
+</mapper>

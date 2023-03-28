@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.song.module.mapper.GoodTypeMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, type, create_time, update_time, is_deleted
+    </sql>
+
+    <select id="getGoodTypeById" resultType="com.song.module.vo.GoodTypeQueryVo">
+        select
+        <include refid="Base_Column_List"/>
+        from good_type where id = #{id}
+    </select>
+
+    <select id="getGoodTypePageList" resultType="com.song.module.vo.GoodTypeQueryVo">
+        select
+        <include refid="Base_Column_List"/>
+        from good_type
+    </select>
+
+</mapper>

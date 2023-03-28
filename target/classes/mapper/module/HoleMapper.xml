@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.song.module.mapper.HoleMapper">
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, title, description, username, user_id, create_time, update_time, is_deleted, is_anonymity
+    </sql>
+
+    <select id="getHoleById" resultType="com.song.module.vo.HoleQueryVo">
+        select
+        <include refid="Base_Column_List"/>
+        from hole where id = #{id}
+    </select>
+
+    <select id="getHolePageList" resultType="com.song.module.vo.HoleQueryVo">
+        select
+        <include refid="Base_Column_List"/>
+        from hole
+    </select>
+
+</mapper>
